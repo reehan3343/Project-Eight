@@ -17,6 +17,7 @@ nav {
     left: 0;
     width: 100%;
     position: fixed;
+    z-index: 999;
 }
 nav .navbar-brand {
     max-width: 130px;
@@ -48,7 +49,6 @@ nav button {
 .btn_one:hover .icon {
     background-color: #0c1e21;
     transform: rotate(360deg);
-    transition: 0.4s;
 }
 .btn_two {
     border: 1px solid #ccc;
@@ -61,7 +61,6 @@ nav button {
 }
 .btn_two:hover .icon {
     transform: rotate(360deg);
-    transition: 0.4s;
 }
 @media screen and (max-width: 768px) {
     nav .border_bottom {
