@@ -1,0 +1,231 @@
+/* Header CSS Start */
+header {
+    padding: 80px 0 0;
+    background: #1E8A8A;
+    background: radial-gradient(circle, rgb(16, 74, 74) 0%, rgba(12, 30, 33, 1) 34%);
+    position: relative;
+    z-index: -2;
+}
+header .one {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+header .two {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+header .headline .wrapper {
+    border: 1px dashed #3f888848;
+    max-width: 256px;
+}
+header .headline .wrapper .image {
+    max-width: 14px;
+}
+header .headline .wrapper .image img {
+    width: 100%;
+}
+header .headline h1 {
+    font-size: 80px;
+    max-width: 1032px;
+}
+header .start p {
+    max-width: 366px;
+}
+header .banner {
+    margin-top: 90px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 50px 0 24px;
+    }
+    header .headline h1 {
+        font-size: 50px;
+    }
+    header .banner {
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header {
+        padding: 38px 0 14px;
+    }
+    header .headline .wrapper {
+        max-width: 202px;
+    }
+    header .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    header .headline h1 {
+        font-size: 32px;
+    }
+    header .banner {
+        margin-top: 40px;
+    }
+    header .btn_one, header .one, header .two {
+        max-width: 164px;
+    }
+}
+/* Header CSS End */
+
+
+/* Service CSS Start */
+.service {
+    padding: 100px 0;
+}
+.service .item .icon {
+    font-size: 68px;
+    color: #1E8A8A;
+    transition: 0.4s;
+}
+.service .item, .service .item h4, .service .item h6 {
+    transition: 0.4s;
+}
+.service .item:hover {
+    background-color: #1E8A8A !important;
+}
+.service .item:hover .icon, .service .item:hover h4, .service .item:hover h6 {
+    color: #fff !important;
+}
+.service .headline .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 194px;
+}
+.service .headline .wrapper h6 {
+    color: #1E8A8A;
+}
+.service .headline .wrapper .image {
+    max-width: 14px;
+}
+.service .headline .wrapper .image img {
+    width: 100%;
+}
+.service .headline h1 {
+    font-size: 42px;
+    font-weight: 500;
+}
+.service .btn_one {
+    max-width: 160px;
+}
+.service .growth_wrapper {
+    position: relative;
+}
+.service .growth_bg {
+    max-width: 439px;
+}
+.service .growth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1E8A8A;
+}
+.service .growth_bg img {
+    width: 100%;
+    height: 300px;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 60px 0;
+    }
+    .service .headline h1 {
+        font-size: 36px;
+    }
+    .service .growth_bg img {
+        height: 318px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 36px 0;
+    }
+    .service .headline .wrapper {
+        max-width: 158px;
+    }
+    .service .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .service .headline h1 {
+        font-size: 30px;
+    }
+    .service .growth_bg img {
+        height: 275px;
+    }
+}
+/* Service CSS End */
+
+
+/* Know Us CSS Start */
+.know_us {
+    padding: 100px 0;
+    background-color: #d8e5e5;
+}
+.know_us .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 182px;
+}
+.know_us .wrapper h6 {
+    color: #1E8A8A;
+}
+.know_us .wrapper .image {
+    max-width: 14px;
+}
+.know_us .wrapper .image img {
+    width: 100%;
+}
+.know_us .customer {
+    margin-top: 170px;
+}
+.know_us .customer .client {
+    max-width: 54px;
+    border: 3px solid #fff;
+    margin-right: -20px;
+}
+.know_us .customer .client img {
+    width: 100%;
+}
+.know_us .customer .icon {
+    background-color: #1E8A8A;
+    width: 54px;
+    height: 54px;
+    border: 3px solid #fff;
+}
+.know_us h5 {
+    font-size: 18px;
+    max-width: 200px;
+}
+.know_us h1 {
+    font-size: 44px;
+}
+@media screen and (max-width: 768px) {
+    .know_us {
+        padding: 60px 0;
+    }
+    .know_us .customer {
+        margin-top: 100px;
+    }
+    .know_us h1 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .know_us {
+        padding: 38px 0;
+    }
+    .know_us .wrapper {
+        max-width: 148px;
+    }
+    .know_us .wrapper h6 {
+        font-size: 12px;
+    }
+    .know_us .customer {
+        margin-top: 20px;
+    }
+    .know_us h1 {
+        font-size: 22px;
+    }
+}
+/* Know Us CSS End */
