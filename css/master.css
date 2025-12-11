@@ -12,12 +12,12 @@ body {
 
 /* Navigation CSS Start */
 nav {
-    box-shadow: 0 0 6px 0 #00000002;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    position: fixed;
-    z-index: 999;
+    z-index: 9999;
+    box-shadow: 0 0 6px 0 #00000002;
 }
 nav .navbar-brand {
     max-width: 130px;

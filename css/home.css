@@ -161,7 +161,7 @@ header .banner {
         font-size: 12px;
     }
     .service .headline h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
     .service .growth_wrapper {
         height: 288px;
@@ -273,7 +273,234 @@ header .banner {
 .solution .items .item .wrapper {
     background-color: #0c1e21;
 }
-.solutions .items .item .wrapper .icon {
+.solution .items .item .wrapper .icon_top {
     color: #1E8A8A;
+    background: #063e3e;
+    background: linear-gradient(131deg, rgba(7, 74, 74, 1) 0%, rgba(12, 30, 33, 1) 50%, rgba(7, 74, 74, 1) 100%);
+    border: 1px solid #074a4a;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 80px;
+}
+.solution .items .item .wrapper a h2, .solution .items .item .wrapper a p {
+    max-width: 360px;
+    transition: 0.4s;
+}
+.solution .items .item .wrapper a h2:hover {
+    color: #1E8A8A !important;
+}
+.solution .items .item .wrapper a p {
+    color: #a9b8b8 !important;
+}
+.solution .btn_one {
+    max-width: 160px;
+}
+.solution .items .item .image img {
+    height: 518px;
+    width: 100%;
+    object-fit: cover;
+}
+.solution .text .image img {
+    width: 18px;
+}
+.solution .text a {
+    transition: 0.4s;
+}
+.solution .text a:hover {
+    color: #1E8A8A !important;
+}
+.solution .text a i {
+    transform: rotate(315deg);
+}
+@media screen and (max-width: 768px) {
+    .solution {
+        padding: 60px 0;
+    }
+    .solution .headline h1 {
+        font-size: 38px;
+    }
+    .solution .items .item .wrapper .icon_top {
+        margin-bottom: 40px;
+    }
+    .solution .items .item .image img {
+        height: 390px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .solution {
+        padding: 38px 0;
+    }
+    .solution .headline .wrapper {
+        max-width: 142px;
+    }
+    .solution .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .solution .headline h1 {
+        font-size: 24px;
+    }
+    .solution .items .item .wrapper .icon_top {
+        margin-bottom: 20px;
+    }
+    .solution .items .item .image img {
+        height: 360px;
+    }
 }
 /* Solutions CSS End */
+
+
+/* Fact CSS Start */
+.fact {
+    padding: 100px 0;
+    background-color: #d8e5e5;
+}
+.fact .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 162px;
+}
+.fact .wrapper h6 {
+    color: #1E8A8A;
+}
+.fact .wrapper .image {
+    max-width: 14px;
+}
+.fact .wrapper .image img {
+    width: 100%;
+}
+.fact h1 {
+    font-size: 46px;
+    max-width: 590px;
+}
+.fact h4 {
+    border: 10px solid #1E8A8A;
+    width: 120px;
+    height: 120px;
+}
+.fact .item {
+    transition: 0.4s;
+}
+.fact .item:hover {
+    transform: translateY(-10px);
+}
+.fact .item .icon {
+    color: #1E8A8A;
+    background-color: #ecf0f0;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 70px;
+}
+.fact .item h2 {
+    font-size: 70px;
+}
+@media screen and (max-width: 768px) {
+    .fact {
+        padding: 60px 0;
+    }
+    .fact h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .fact {
+        padding: 38px 0;
+    }
+    .fact .wrapper {
+        max-width: 132px;
+    }
+    .fact .wrapper h6 {
+        font-size: 12px;
+    }
+    .fact h1 {
+        font-size: 24px;
+    }
+}
+/* Fact CSS End */
+
+
+/* Project CSS Start */
+.project {
+    padding: 100px 0;
+}
+.project .headline .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 188px;
+}
+.project .headline .wrapper h6 {
+    color: #1E8A8A;
+}
+.project .headline .wrapper .image {
+    max-width: 14px;
+}
+.project .headline .wrapper .image img {
+    width: 100%;
+}
+.project .headline h1 {
+    font-size: 46px;
+    max-width: 588px;
+}
+.project .item, .project .item .tag, .project .item .wrapper .one {
+    transition: 0.4s;
+}
+.project .item .tag:hover {
+    background-color: #1E8A8A;
+    color: #fff !important;
+}
+.project .item .wrapper .one:hover {
+    color: #1E8A8A !important;
+}
+.project .item .wrapper .two {
+    transform: rotate(315deg);
+    border: 1px solid #1E8A8A;
+    color: #1E8A8A;
+    width: 66px;
+    height: 66px;
+    transition: 0.4s;
+}
+.project .item .wrapper .two:hover {
+    transform: rotate(360deg);
+    background-color: #1E8A8A;
+    color: #fff;
+}
+.project .item .image {
+    overflow: hidden;
+}
+.project .item .image img {
+    height: 400px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.project .item:hover .image img {
+    transform: scale(1.11) rotate(-3deg);
+}
+@media screen and (max-width: 768px) {
+    .project {
+        padding: 60px 0;
+    }
+    .project .headline h1 {
+        font-size: 38px;
+    }
+    .project .item .image img {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .project {
+        padding: 38px 0;
+    }
+    .project .headline .wrapper {
+        max-width: 152px;
+    }
+    .project .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .project .headline h1 {
+        font-size: 24px;
+    }
+    .project .item .wrapper .one {
+        font-size: 16px !important;
+    }
+    .project .item .image img {
+        height: 260px;
+    }
+}
+/* Project CSS End */
