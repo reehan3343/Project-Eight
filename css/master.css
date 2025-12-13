@@ -62,6 +62,26 @@ nav button {
 .btn_two:hover .icon {
     transform: rotate(360deg);
 }
+.btn_three .icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(315deg);
+    transition: 0.4s;
+}
+.btn_three:hover .icon {
+    transform: rotate(360deg);
+    background-color: #1e8a8a !important;
+}
+.btn_four .icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(315deg);
+    transition: 0.4s;
+    background-color: #1e8a8a !important;
+}
+.btn_four:hover .icon {
+    transform: rotate(360deg);
+}
 @media screen and (max-width: 768px) {
     nav .border_bottom {
         border-bottom: 1px solid #00000010;

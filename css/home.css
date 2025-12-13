@@ -420,6 +420,7 @@ header .banner {
 /* Project CSS Start */
 .project {
     padding: 100px 0;
+    border-bottom: 1px dashed #ccc;
 }
 .project .headline .wrapper {
     border: 1px dashed #1E8A8A;
@@ -504,3 +505,360 @@ header .banner {
     }
 }
 /* Project CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    padding: 100px 0;
+}
+.pricing .accordion-button:focus {
+    box-shadow: none;
+    background-color: #1E8A8A;
+    color: #fff;
+    border-bottom: 1px solid #ffffff20;
+}
+.pricing .accordion-body {
+    background-color: #1E8A8A;
+}
+.pricing .price {
+    border-right: 1px solid #ffffff20;
+    width: 50%;
+}
+.pricing .price h2 {
+    font-size: 60px;
+}
+.pricing .benefits {
+    list-style: none;
+    width: 50%;
+}
+.pricing .headline .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 190px;
+}
+.pricing .headline .wrapper h6 {
+    color: #1E8A8A;
+}
+.pricing .headline .wrapper .image {
+    max-width: 14px;
+}
+.pricing .headline .wrapper .image img {
+    width: 100%;
+}
+.pricing .headline h1 {
+    font-size: 46px;
+}
+.pricing .headline p {
+    max-width: 410px;
+}
+.pricing .btn_one {
+    max-width: 170px;
+}
+@media screen and (max-width: 768px) {
+    .pricing {
+        padding: 60px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing {
+        padding: 38px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 24px;
+    }
+    .pricing .headline p {
+        font-size: 14px;
+        margin: 2px 0 14px !important;
+    }
+    .pricing .headline .wrapper {
+        max-width: 154px;
+    }
+    .pricing .headline .wrapper h6 {
+        font-size: 12px;
+    }
+}
+/* Pricing CSS End */
+
+
+/* Contact CSS Start */
+.contact {
+    padding: 100px 0;
+    background: #1E8A8A;
+    background: radial-gradient(circle, rgb(16, 74, 74) 0%, rgba(12, 30, 33, 1) 34%);
+    position: relative;
+}
+.contact .one {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contact .two {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.contact .headline .wrapper {
+    border: 1px dashed #3f888848;
+    max-width: 158px;
+}
+.contact .headline .wrapper .image {
+    max-width: 14px;
+}
+.contact .headline .wrapper .image img {
+    width: 100%;
+}
+.contact .headline h1 {
+    font-size: 48px;
+}
+.contact form .input_group input, .contact form .input_group textarea, .contact .feedback {
+    background-color: #ffffff14;
+    border: 1px solid #ffffff20;
+    color: #a9b8b8;
+    transition: 0.4s;
+}
+.contact form .input_group input:focus, .contact form .input_group textarea:focus {
+    box-shadow: none;
+    border: 1px solid #1E8A8A;
+}
+.contact form button {
+    background-color: #00000000;
+}
+.contact .feedback h2 .lime {
+    color: #a9b8b8 !important;
+}
+.contact .feedback .icon {
+    font-size: 70px;
+    color: #1E8A8A;
+}
+.contact .feedback h4 {
+    line-height: 34px;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 60px 0;
+    }
+    .contact .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact {
+        padding: 38px 0;
+    }
+    .contact .headline h1 {
+        font-size: 24px;
+    }
+    .contact .headline .wrapper {
+        max-width: 128px;
+    }
+    .contact .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .contact .feedback h2 {
+        font-size: 16px;
+    }
+    .contact .feedback h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+/* Contact CSS End */
+
+
+/* Blog CSS Start */
+.blog {
+    padding: 100px 0;
+}
+.blog .headline .wrapper {
+    border: 1px dashed #1E8A8A;
+    max-width: 146px;
+}
+.blog .headline .wrapper h6 {
+    color: #1E8A8A;
+}
+.blog .headline .wrapper .image {
+    max-width: 14px;
+}
+.blog .headline .wrapper .image img {
+    width: 100%;
+}
+.blog .headline h1 {
+    font-size: 46px;
+}
+.blog .item {
+    position: relative;
+    overflow: hidden;
+}
+.blog .item .image img {
+    transition: 0.4s;
+}
+.blog .item:hover .image img {
+    transform: scale(1.08) rotate(-2deg);
+}
+.blog .item .item_wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #074A4A;
+    background: linear-gradient(180deg, rgba(7, 74, 74, 0.31) 0%, rgba(12, 30, 33, 0.85) 100%);
+}
+.blog .item .content_wrapper {
+    width: 100%;
+    height: 100%;
+}
+.blog .texts a h4 {
+    max-width: 340px;
+    font-size: 22px;
+}
+.blog .texts a h4:hover {
+    text-decoration: underline !important;
+}
+.blog .texts p {
+    color: #d0d0d0;
+}
+.blog .texts p .tag {
+    background-color: #b0b0b053;
+    border-radius: 6px;
+}
+.blog .date {
+    background-color: #ffffff2d;
+}
+.blog .item:hover .btn_four {
+    display: flex !important;
+}
+@media screen and (max-width: 768px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .blog {
+        padding: 38px 0;
+    }
+    .blog .headline h1 {
+        font-size: 24px;
+    }
+    .blog .headline .wrapper {
+        max-width: 120px;
+    }
+    .blog .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .blog .headline h1 {
+        font-size: 24px;
+    }
+    .blog .texts a h4 {
+        font-size: 16px;
+    }
+}
+/* Blog CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 100px 0 0;
+    background-color: #d8e5e5;
+}
+footer h1 {
+    font-size: 58px;
+}
+footer a .customer .client {
+    max-width: 50px;
+    border: 3px solid #fff;
+    margin-right: -18px;
+    transition: 0.4s;
+}
+footer a .customer .client img {
+    width: 100%;
+}
+.btn_five {
+    background-color: #1e8a8a;
+    max-width: 240px;
+    transition: 0.4s;
+}
+.btn_five .icon {
+    transform: rotate(315deg);
+}
+.btn_five:hover .customer .client {
+    margin-right: -14px;
+}
+.btn_five:hover {
+    max-width: 250px;
+}
+footer .newsletter {
+    background-color: #1E8A8A;
+}
+footer .newsletter form .input_group input:focus {
+    box-shadow: none;
+}
+footer .newsletter label a {
+    transition: 0.4s;
+}
+footer .newsletter label a:hover {
+    color: #000 !important;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li a {
+    transition: 0.4s;
+}
+footer ul li a:hover {
+    color: #1E8A8A !important;
+    padding-left: 6px;
+}
+footer .info a {
+    transition: 0.4s;
+}
+footer .info a:hover, footer .time .icon {
+    color: #1E8A8A !important;
+}
+footer .copyright {
+    background-color: #1E8A8A;
+}
+footer .copyright .social .icon {
+    color: #1E8A8A;
+    background-color: #ffffff60;
+    width: 28px;
+    height: 28px;
+    transition: 0.4s;
+}
+footer .copyright .social .icon:hover {
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-4px);
+}
+footer .copyright .border_right {
+    border-right: 1px solid #fff;
+}
+footer .copyright .policy {
+    transition: 0.4s;
+}
+footer .copyright .policy:hover {
+    color: #000 !important;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 60px 0 0;
+    }
+    footer h1 {
+        font-size: 48px;
+    }
+}
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 38px 0 0;
+    }
+    footer h1 {
+        font-size: 38px;
+    }
+}
+/* Footer CSS End */
