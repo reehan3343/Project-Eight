@@ -1,0 +1,162 @@
+/* Header CSS Start */
+header .wrapper, header .wrapper .images {
+    position: relative;
+}
+header .wrapper .texts, header .wrapper .images .two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+header .wrapper .images .two {
+    opacity: 0.86;
+}
+header .wrapper .images .one img, header .wrapper .images .two img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+}
+header .texts .text_wrapper h1 {
+    font-size: 60px;
+}
+header .texts .tag {
+    background-color: #ffffff20;
+    max-width: 170px;
+}
+header .texts .tag .icon {
+    color: #1e8a8a;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    header .wrapper .images .one img, header .wrapper .images .two img {
+        height: 340px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header .wrapper .images .one img, header .wrapper .images .two img {
+        height: 300px;
+    }
+}
+/* Header CSS End */
+
+
+/* Pricing CSS Start */
+.pricing {
+    padding: 100px 0;
+}
+.pricing .headline .wrapper {
+    border: 1px dashed #ccc;
+    max-width: 158px;
+}
+.pricing .headline .wrapper .image {
+    max-width: 14px;
+}
+.pricing .headline .wrapper .image img {
+    width: 100%;
+}
+.pricing .headline h1 {
+    font-size: 46px;
+    max-width: 590px;
+}
+.pricing .item_standard {
+    background-color: #1e8a8a;
+}
+.pricing .headline .green, .pricing .item .benefits li i {
+    color: #1e8a8a !important;
+}
+.pricing .item .price h2, .pricing .item_standard .price h2 {
+    font-size: 58px;
+}
+.pricing .item .btn_three, .pricing .item_standard .btn_three {
+    border: 1px solid #1e8a8a;
+}
+.pricing .item .benefits, .pricing .item_standard .benefits {
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .pricing {
+        padding: 60px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 38px;
+    }
+    .pricing .item .price h2, .pricing .item_standard .price h2 {
+        font-size: 46px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .pricing {
+        padding: 38px 0;
+    }
+    .pricing .headline h1 {
+        font-size: 24px;
+    }
+    .pricing .headline .wrapper {
+        max-width: 128px;
+    }
+    .pricing .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .pricing .item .price h2, .pricing .item_standard .price h2 {
+        font-size: 38px;
+    }
+    .pricing .benefits li {
+        font-size: 14px;
+    }
+}
+/* Pricing CSS End */
+
+
+/* CTA CSS Start */
+.cta .wrapper {
+    background-color: #1e8a8a;
+    overflow: hidden;
+    margin-bottom: -90px;
+}
+.cta .image {
+    background-color: #1e8a8a;
+}
+.cta h1 {
+    font-size: 66px;
+}
+.btn_six {
+    max-width: 210px;
+}
+.btn_six .icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(315deg);
+    transition: 0.4s;
+}
+.btn_six:hover .icon {
+    transform: rotate(360deg);
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .btn_six {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .btn_six {
+        max-width: 210px;
+    }
+}
+/* CTA CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 200px 0 0 !important;
+}
+/* Footer CSS End */
