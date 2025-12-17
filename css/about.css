@@ -1,0 +1,225 @@
+/* Header CSS Start */
+header .wrapper, header .wrapper .images {
+    position: relative;
+}
+header .wrapper .texts, header .wrapper .images .two {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+header .wrapper .images .two {
+    opacity: 0.86;
+}
+header .wrapper .images .one img, header .wrapper .images .two img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+    object-position: center;
+}
+header .texts .text_wrapper h1 {
+    font-size: 60px;
+}
+header .texts .tag {
+    background-color: #ffffff20;
+    max-width: 184px;
+}
+header .texts .tag .icon {
+    color: #1e8a8a;
+    font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+    header .wrapper .images .one img, header .wrapper .images .two img {
+        height: 340px;
+    }
+}
+@media screen and (max-width: 576px) {
+    header .wrapper .images .one img, header .wrapper .images .two img {
+        height: 300px;
+    }
+}
+/* Header CSS End */
+
+
+/* Service CSS Start */
+.service {
+    padding: 100px 0;
+}
+.service .wrapper {
+    border: 1px dashed #ccc;
+    max-width: 194px;
+}
+.service .wrapper .image {
+    max-width: 14px;
+}
+.service .wrapper .image img {
+    width: 100%;
+}
+.service h1 {
+    font-size: 46px;
+    max-width: 590px;
+}
+.service h1 .green {
+    color: #1e8a8a;
+}
+.service .btn_one {
+    max-width: 184px;
+}
+.service .item .icon {
+    font-size: 68px;
+    color: #1E8A8A;
+    transition: 0.4s;
+}
+.service .item, .service .item h4, .service .item h6 {
+    transition: 0.4s;
+}
+.service .item:hover {
+    background-color: #1E8A8A !important;
+}
+.service .item:hover .icon, .service .item:hover h4, .service .item:hover h6 {
+    color: #fff !important;
+}
+@media screen and (max-width: 768px) {
+    .service {
+        padding: 60px 0;
+    }
+    .service h1 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .service {
+        padding: 36px 0;
+    }
+    .service .wrapper {
+        max-width: 158px;
+    }
+    .service .wrapper h6 {
+        font-size: 12px;
+    }
+    .service h1 {
+        font-size: 24px;
+    }
+}
+/* Service CSS End */
+
+
+/* Know US CSS Start */
+.know_us {
+    padding: 100px 0;
+    background-color: #d8e5e5;
+}
+.know_us .wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.know_us .wrapper .texts {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 274px;
+    background-color: #ffffff20;
+    backdrop-filter: blur(10px);
+}
+.know_us .wrapper .progress_bar .bar {
+    width: 100%;
+    background-color: #1E8A8A;
+    border: 1px solid #dddddd30;
+}
+.know_us .headline .wrapper {
+    border: 1px dashed #ccc;
+    max-width: 182px;
+}
+.know_us .headline .wrapper .image {
+    max-width: 14px;
+}
+.know_us .headline .wrapper .image img {
+    width: 100%;
+}
+.know_us .headline h1 {
+    font-size: 46px;
+    max-width: 590px;
+}
+.know_us .headline h1 .green, .know_us .item ul i {
+    color: #1e8a8a !important;
+}
+.know_us .item ul {
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .know_us {
+        padding: 60px 0;
+    }
+    .know_us .headline h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .know_us {
+        padding: 38px 0;
+    }
+    .know_us .headline .wrapper {
+        max-width: 148px;
+    }
+    .know_us .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .know_us .headline h1 {
+        font-size: 24px;
+    }
+}
+/* Know US CSS End */
+
+
+/* CTA CSS Start */
+.cta .wrapper {
+    background-color: #1e8a8a;
+    overflow: hidden;
+    margin-bottom: -90px;
+}
+.cta .image {
+    background-color: #1e8a8a;
+}
+.cta h1 {
+    font-size: 66px;
+}
+.btn_six {
+    max-width: 210px;
+}
+.btn_six .icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(315deg);
+    transition: 0.4s;
+}
+.btn_six:hover .icon {
+    transform: rotate(360deg);
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .btn_six {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .btn_six {
+        max-width: 210px;
+    }
+}
+/* CTA CSS End */
+
+
+/* Footer CSS Start */
+footer {
+    padding: 200px 0 0 !important;
+}
+/* Footer CSS End */
