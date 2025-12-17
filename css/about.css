@@ -115,10 +115,13 @@ header .texts .tag .icon {
     position: relative;
     overflow: hidden;
 }
+.know_us .wrapper .image img {
+    width: 100%;
+}
 .know_us .wrapper .texts {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 25px;
+    left: 25px;
     width: 274px;
     background-color: #ffffff20;
     backdrop-filter: blur(10px);
@@ -160,6 +163,10 @@ header .texts .tag .icon {
     .know_us {
         padding: 38px 0;
     }
+    .know_us .wrapper .texts {
+        bottom: 10px;
+        left: 11px;
+    }
     .know_us .headline .wrapper {
         max-width: 148px;
     }
@@ -173,11 +180,75 @@ header .texts .tag .icon {
 /* Know US CSS End */
 
 
+/* Logos CSS Start */
+.logos {
+    padding: 100px 0;
+}
+@media screen and (max-width: 768px) {
+    .logos {
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logos {
+        padding: 38px 0;
+    }
+}
+/* Logos CSS End */
+
+
+/* Testimonial CSS Start */
+.testimonial {
+    padding: 0 0 100px;
+}
+.testimonial .item .icon {
+    font-size: 68px;
+    color: #1E8A8A;
+}
+.testimonial .item p {
+    border-bottom: 1px dashed #ccc;
+}
+.testimonial .wrapper {
+    position: relative;
+}
+.testimonial .wrapper .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonial .wrapper .image_two img {
+    width: 100%;
+    height: 566px;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .testimonial {
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        padding: 38px 0;
+    }
+    .testimonial .item p {
+        font-size: 16px !important;
+    }
+    .testimonial .wrapper .image_two img {
+        height: 490px;
+        object-fit: cover;
+    }
+}
+/* Testimonial CSS End */
+
+
 /* CTA CSS Start */
 .cta .wrapper {
     background-color: #1e8a8a;
     overflow: hidden;
     margin-bottom: -90px;
+    position: relative;
 }
 .cta .image {
     background-color: #1e8a8a;

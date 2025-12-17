@@ -115,6 +115,7 @@ header .texts .tag .icon {
     background-color: #1e8a8a;
     overflow: hidden;
     margin-bottom: -90px;
+    position: relative;
 }
 .cta .image {
     background-color: #1e8a8a;
