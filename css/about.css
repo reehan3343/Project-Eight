@@ -330,50 +330,65 @@ header .texts .tag .icon {
 /* Team CSS End */
 
 
-/* CTA CSS Start */
-.cta .wrapper {
-    background-color: #1e8a8a;
-    overflow: hidden;
-    margin-bottom: -90px;
-    position: relative;
+/* QNA CSS Start */
+.qna {
+    padding: 100px 0;
 }
-.cta .image {
-    background-color: #1e8a8a;
+.qna .wrapper {
+    border: 1px dashed #ccc;
+    max-width: 220px;
 }
-.cta h1 {
-    font-size: 66px;
+.qna .wrapper .image {
+    max-width: 14px;
 }
-.btn_six {
-    max-width: 210px;
+.qna .wrapper .image img {
+    width: 100%;
 }
-.btn_six .icon {
-    width: 30px;
-    height: 30px;
-    transform: rotate(315deg);
-    transition: 0.4s;
+.qna h1 {
+    font-size: 40px;
 }
-.btn_six:hover .icon {
-    transform: rotate(360deg);
+.qna h1 .green {
+    color: #1e8a8a !important;
 }
-@media screen and (max-width: 768px) {
-    .cta h1 {
-        font-size: 44px;
-        text-align: center;
-    }
-    .btn_six {
-        margin: 0 auto;
-    }
+.qna p {
+    max-width: 300px;
+}
+.qna .btn_one {
+    max-width: 186px;
+}
+.qna .accordion-item .accordion-button:focus {
+    box-shadow: none;
+    background-color: #fff;
 }
 @media screen and (max-width: 768px) {
-    .cta h1 {
-        font-size: 32px;
-        text-align: center;
+    .qna {
+        padding: 60px 0;
     }
-    .btn_six {
-        max-width: 210px;
+    .qna h1 {
+        font-size: 36px;
+    }
+    .qna p {
+        max-width: 500px;
     }
 }
-/* CTA CSS End */
+@media screen and (max-width: 576px) {
+    .qna {
+        padding: 38px 0;
+    }
+    .qna .wrapper {
+        max-width: 176px;
+    }
+    .qna .wrapper h6 {
+        font-size: 12px;
+    }
+    .qna h1 {
+        font-size: 24px;
+    }
+    .qna p {
+        font-size: 14px;
+    }
+}
+/* QNA CSS End */
 
 
 /* Footer CSS Start */

@@ -45,7 +45,7 @@ header .texts .tag .icon {
 
 /* Pricing CSS Start */
 .pricing {
-    padding: 100px 0;
+    padding: 100px 0 0;
 }
 .pricing .headline .wrapper {
     border: 1px dashed #ccc;
@@ -78,7 +78,7 @@ header .texts .tag .icon {
 }
 @media screen and (max-width: 768px) {
     .pricing {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
     .pricing .headline h1 {
         font-size: 38px;
@@ -89,7 +89,7 @@ header .texts .tag .icon {
 }
 @media screen and (max-width: 576px) {
     .pricing {
-        padding: 38px 0;
+        padding: 38px 0 0;
     }
     .pricing .headline h1 {
         font-size: 24px;
@@ -108,6 +108,48 @@ header .texts .tag .icon {
     }
 }
 /* Pricing CSS End */
+
+
+/* Logos CSS Start */
+.logos {
+    padding: 200px 0;
+}
+.logos .item {
+    min-height: 100px;
+}
+.logos .wrapper {
+    position: relative;
+}
+.logos .wrapper .company {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.logos .wrapper .company .wrapper {
+    background-color: #ffffff20;
+    backdrop-filter: blur(8px);
+    width: 290px;
+    height: 290px;
+    padding: 34px;
+    border: 1px dashed #ccc;
+}
+.logos .wrapper .company .wrapper h5 .green {
+    background-color: #1E8A8A;
+    padding: 0 4px;
+}
+@media screen and (max-width: 768px) {
+    .logos {
+        padding: 120px 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logos {
+        padding: 76px 0;
+    }
+}
+/* Logos CSS End */
 
 
 /* Footer CSS Start */

@@ -91,6 +91,52 @@ nav button {
 /* Navigation CSS End */
 
 
+/* CTA CSS Start */
+.cta .wrapper {
+    background-color: #1e8a8a;
+    overflow: hidden;
+    margin-bottom: -90px;
+    position: relative;
+}
+.cta .image {
+    background-color: #1e8a8a;
+}
+.cta h1 {
+    font-size: 66px;
+}
+.btn_six {
+    max-width: 210px;
+}
+.btn_six .icon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(315deg);
+    transition: 0.4s;
+}
+.btn_six:hover .icon {
+    transform: rotate(360deg);
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 44px;
+        text-align: center;
+    }
+    .btn_six {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cta h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .btn_six {
+        max-width: 210px;
+    }
+}
+/* CTA CSS End */
+
+
 /* Footer CSS Start */
 footer {
     padding: 100px 0 0;
