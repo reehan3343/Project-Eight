@@ -89,7 +89,6 @@ header .texts .tag .icon {
     background: url(/images/banner/contact.svg);
     background-position: center;
     background-repeat: no-repeat;
-    filter: grayscale(0.2);
     background-color: rgb(12, 30, 33);
     position: relative;
 }
@@ -121,11 +120,12 @@ header .texts .tag .icon {
     color: #1E8A8A;
 }
 .contact .wrapper {
-    background-color: rgba(50, 61, 62, 0.814);
+    background-color: rgba(50, 61, 62, 0.614);
+    backdrop-filter: blur(10px);
 }
 .contact form .input_group input, .contact form .input_group textarea {
     background-color: #ffffff00;
-    border-bottom: 1px solid #ffffff20 !important;
+    border-bottom: 1px solid #ffffff38 !important;
     border: 0;
     color: #fff;
     transition: 0.4s;
