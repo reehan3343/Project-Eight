@@ -43,63 +43,63 @@ header .texts .tag .icon {
 /* Header CSS End */
 
 
-/* Info CSS Start */
-.info {
+/* Contact Info CSS Start */
+.contact_info {
     padding: 100px 0;
 }
-.info .headline .wrapper {
+.contact_info .headline .wrapper {
     border: 1px dashed #ccc;
     max-width: 164px;
 }
-.info .headline .wrapper .image {
+.contact_info .headline .wrapper .image {
     max-width: 14px;
 }
-.info .headline .wrapper .image img {
+.contact_info .headline .wrapper .image img {
     width: 100%;
 }
-.info h1 {
+.contact_info h1 {
     font-size: 46px;
 }
-.info .item .icon {
+.contact_info .item .icon {
     color: #1e8a8a;
     width: 80px;
     height: 80px;
     background-color: #d8e5e5;
     transition: 0.4s;
 }
-.info .item:hover .icon {
+.contact_info .item:hover .icon {
     background-color: #1e8a8a;
     color: #fff;
 }
-.info a {
+.contact_info a {
     transition: 0.4s;
 }
-.info a:hover, .info .green {
+.contact_info a:hover, .contact_info .green {
     color: #1e8a8a !important;
 }
 @media screen and (max-width: 768px) {
-    .info {
+    .contact_info {
         padding: 60px 0;
     }
-    .info h1 {
+    .contact_info h1 {
         font-size: 38px;
     }
 }
 @media screen and (max-width: 576px) {
-    .info {
+    .contact_info {
         padding: 38px 0;
     }
-    .info .headline .wrapper {
+    .contact_info .headline .wrapper {
         max-width: 134px;
     }
-    .info .headline .wrapper h6 {
+    .contact_info .headline .wrapper h6 {
         font-size: 12px;
     }
-    .info h1 {
+    .contact_info h1 {
         font-size: 24px;
     }
 }
-/* Info CSS End */
+/* Contact Info CSS End */
 
 
 /* Contact CSS Start */

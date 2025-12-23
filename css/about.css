@@ -290,42 +290,76 @@ header .texts .tag .icon {
 .team .headline .wrapper .image img {
     width: 100%;
 }
-.team .headline h1 {
+.team h1 {
     font-size: 46px;
     max-width: 590px;
 }
 .team .headline h1 .green {
     color: #1e8a8a !important;
 }
-.team .wrapper {
+.team .item .wrapper {
     position: relative;
 }
-.team .wrapper .bg {
-    background-color: #1E8A8A;
-    width: 290px;
-    height: 375px;
-    transform: rotate(4deg);
-    opacity: 0;
-}
-.team .wrapper .wrapper_two {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 290px;
-    height: 375px;
-}
-.team .wrapper .wrapper_two .image {
+.team .item .wrapper .image {
     background-color: #a9b8b8;
 }
-.team .wrapper .wrapper_two .wrapper_three {
-    position: relative;
-}
-.team .wrapper .wrapper_two .wrapper_three .socials {
+.team .item .wrapper ul {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
     width: 100%;
     height: 100%;
+    background-color: #0c1e21b9;
+    opacity: 0;
+    transition: 0.4s;
+}
+.team .item .wrapper ul li {
+    background-color: #ffffff70;
+    color: #181c1bdd;
+    width: 30px;
+    height: 30px;
+    transition: 0.4s;
+}
+.team .item .wrapper ul li:hover {
+    background-color: #1E8A8A;
+    color: #fff;
+    transform: translateY(-4px);
+}
+.team .item .wrapper:hover ul {
+    opacity: 1;
+}
+.team .texts .employee h4, .team .texts h3 {
+    transition: 0.4s;
+}
+.team .texts .employee h4:hover {
+    color: #1e8a8a;
+}
+.team .texts h3:hover {
+    background-color: #1E8A8A !important;
+    color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .team {
+        padding: 60px 0;
+    }
+    .team h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .team {
+        padding: 38px 0;
+    }
+    .team .headline .wrapper {
+        max-width: 142px;
+    }
+    .team .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .team h1 {
+        font-size: 24px;
+    }
 }
 /* Team CSS End */
 
