@@ -57,13 +57,88 @@ header .texts .tag .icon {
 .info .headline .wrapper .image img {
     width: 100%;
 }
-.info .headline h1 {
+.info h1 {
     font-size: 46px;
 }
-.info .headline h1 .green {
+.info .item .icon {
     color: #1e8a8a;
+    width: 80px;
+    height: 80px;
+    background-color: #d8e5e5;
+    transition: 0.4s;
+}
+.info .item:hover .icon {
+    background-color: #1e8a8a;
+    color: #fff;
+}
+.info a {
+    transition: 0.4s;
+}
+.info a:hover, .info .green {
+    color: #1e8a8a !important;
+}
+@media screen and (max-width: 768px) {
+    .info {
+        padding: 60px 0;
+    }
+    .info h1 {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .info {
+        padding: 38px 0;
+    }
+    .info .headline .wrapper {
+        max-width: 134px;
+    }
+    .info .headline .wrapper h6 {
+        font-size: 12px;
+    }
+    .info h1 {
+        font-size: 24px;
+    }
 }
 /* Info CSS End */
+
+
+/* Contact CSS Start */
+.contact {
+    padding: 100px 0;
+}
+.contact form .input_group input, .contact form .input_group textarea {
+    border-bottom: 1px dashed #00000030 !important;
+    border: 0;
+    transition: 0.4s;
+}
+.contact form .input_group input:focus, .contact form .input_group textarea:focus {
+    border-bottom: 1px dashed #000 !important;
+    box-shadow: none;
+}
+.contact iframe {
+    width: 100%;
+    height: 566px;
+}
+@media screen and (max-width: 768px) {
+    .contact {
+        padding: 60px 0;
+    }
+    .contact iframe {
+        height: 540px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contact {
+        padding: 38px 0;
+    }
+    .contact h1 {
+        font-size: 21px !important;
+    }
+    .contact iframe {
+        height: 500px;
+    }
+}
+/* Contact CSS End */
 
 
 /* Footer CSS Start */
