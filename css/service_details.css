@@ -55,6 +55,46 @@ header .texts .tag .icon {
 .details ul li i {
     color: #1e8a8a;
 }
+.details h3 {
+    font-size: 32px;
+    margin: 34px 0 24px 0;
+}
+.details h5 {
+    background-color: #1e8a8a;
+    width: 30px;
+    height: 30px;
+}
+.details .accordion-button {
+    border: 1px solid #ffffff20;
+}
+.details .accordion_item {
+    transition: 0.4s;
+}
+.details .accordion-button:focus, .details .accordion-body, .details .accordion_item:hover {
+    background-color: #1e8a8a !important;
+    color: #fff;
+    box-shadow: none;
+}
+.details .green_bg {
+    background-color: #d8e5e5;
+}
+.details .green_bg .image img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 768px) {
+    .details {
+        padding: 60px 0;
+    }
+    .details h3 {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .details {
+        padding: 38px 0;
+    }
+}
 /* Service Details CSS End */
 
 
