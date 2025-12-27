@@ -86,7 +86,7 @@ header .texts .tag .icon {
 /* Contact CSS Start */
 .contact {
     padding: 100px 0;
-    background: url(/images/banner/contact.svg);
+    background: url(../images/banner/contact.png);
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(12, 30, 33);

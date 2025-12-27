@@ -593,12 +593,13 @@ header .banner {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1 !important;
 }
 .contact .two {
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: 1;
+    z-index: 1 !important;
 }
 .contact .headline .wrapper {
     border: 1px dashed #3f888848;
@@ -618,6 +619,7 @@ header .banner {
     border: 1px solid #ffffff20;
     color: #a9b8b8;
     transition: 0.4s;
+    z-index: 2 !important;
 }
 .contact form .input_group input:focus, .contact form .input_group textarea:focus {
     box-shadow: none;
